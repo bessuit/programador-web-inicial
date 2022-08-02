@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <script>
+        var metros = 5000;
+        var transporte = " ";
+        Num1 = prompt('Ingrese los metros entre 0 y 100000:', '');
+
+        if (Num1 > 0 && Num1 <= 1000) {
+            document.write('Con estos metros te recomiendo ir en ' + 'pie');
+        } else if (Num1 > 1000 && Num1 <= 10000) {
+            document.write('Con estos metros te recomiendo ir en ' + 'bicicleta');
+        } else if (Num1 > 10000 && Num1 <= 30000) {
+            document.write('Con estos metros te recomiendo ir en ' + 'colectivos');
+        } else if (Num1 > 30000 && Num1 <= 100000) {
+            document.write('Con estos metros te recomiendo ir en ' + 'auto');
+        } else if (Num1 > 100000) {
+            document.write('Con estos metros te recomiendo ir en ' + 'avion');
+        }
+
+    </script>
+</body>
+
+</html>
